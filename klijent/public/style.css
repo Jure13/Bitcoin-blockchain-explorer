@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(176, 168, 168);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-block {
+  width: 900px;
+  height: 180px;
+  overflow: hidden;
+  background-color: #968d8d89;
+}
+
+.search-block .search-container {
+  float: left;
+}
+
+.search-block input[type=text] {
+  width: 800px;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-block .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}

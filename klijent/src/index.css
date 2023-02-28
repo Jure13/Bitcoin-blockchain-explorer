@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(181, 193, 214);
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+  
+.transaction {
+    background-color: aliceblue;
+}
+
+h2 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(121, 39, 7)
+}
+
+h4 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(121, 39, 7)
+}
+
+.mainContainer {
+  width: 850px;
+  min-width: 850px;
+  margin: 0 auto;
+  border: 0;
+  background-color: rgb(181, 193, 214);
+}
+
+.card {
+  width: 850px;
+  min-width: 850px;
+  margin: 0 auto;
+  border: 0;
+  background-color: rgb(181, 193, 214);
+  justify-content: center;
+}
+
+.server {
+  width: 850px;
+  min-width: 850px;
+  margin: 0 auto;
+  border: 0;
+  background-color: rgb(117, 135, 167);
+  justify-content: flex-end;
+  flex: content;
+}
+
+h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(212, 196, 190)
+}
+
+.blok {
+  width: 850px;
+  min-width: 850px;
+  margin: 0 auto;
+  border: 0;
+  background-color: rgb(117, 135, 167);
+  justify-content: flex-end;
+  flex: content;
+}
+
+.table, th, td {
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tx {
+  justify-content: center;
+  flex: auto;
+}
+
+.trazilica {
+  width: 85px;
+  min-width: 85px;
+  margin: 0 auto;
+  border: 0;
+  background-color: rgb(240, 242, 247);
+  justify-content: center;
+  flex: content;
+}
+
+.tipka {
+  width: 89px;
+  min-width: 85px;
+  margin: 0 auto;
+  border: 0;
+  background-color: rgb(135, 167, 223);
+  justify-content: center;
+  flex: content;  
+}
+
+tipka:hover {
+  background-color: aliceblue;
+}
